@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-01T19:27:24.182Z",
+        "line": 2,
+        "name": "Calculate time left until the next birthday",
+        "description": "",
+        "id": "next-birthday-api;calculate-time-left-until-the-next-birthday",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1291000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user\u0027s date of birth is \"1987-08-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1987-08-20",
+                  "offset": 29
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.setUserDateOfBirth(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1293971000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I request the time left until the next birthday in \"hour\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hour",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.requestTimeLeft(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1401000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the API should return \"456 hours left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "456 hours left",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.validateResponseMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user\u0027s date of birth is \"1987-08-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1987-08-20",
+                  "offset": 29
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.setUserDateOfBirth(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 559566000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I request the time left until the next birthday in \"day\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.requestTimeLeft(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the API should return \"19 days left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19 days left",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.validateResponseMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user\u0027s date of birth is \"1987-08-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1987-08-20",
+                  "offset": 29
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.setUserDateOfBirth(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505466000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I request the time left until the next birthday in \"week\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "week",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.requestTimeLeft(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the API should return \"2 weeks left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 weeks left",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.validateResponseMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user\u0027s date of birth is \"1987-08-20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1987-08-20",
+                  "offset": 29
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.setUserDateOfBirth(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 513472000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I request the time left until the next birthday in \"month\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "month",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.requestTimeLeft(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the API should return \"0 months left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0 months left",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.stepdefinitions.NextBirthdayStepDefinitions.validateResponseMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Next Birthday API",
+    "description": "",
+    "id": "next-birthday-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/example/features/next-birthday.feature",
+    "tags": []
+  }
+]
